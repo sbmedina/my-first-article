@@ -1,0 +1,112 @@
+body {
+    width: 620px; 
+    border: 1px solid lightgray; 
+    margin: 10px auto; 
+    padding: 20px;
+    width: 620px;
+}
+h1 {
+    color: #ab0613;
+    font: 28px georgia;
+    margin: 0px 0px 0px;
+    padding: 0px 0px 22px;
+    font-weight:bold;
+    letter-spacing: -1px;
+}
+h2 {
+    color: #121212;
+    font: 17px georgia;
+    margin: 0px 0px 0px;
+    font-weight: lighter;
+    letter-spacing: -0.5px;
+    }
+li { /* bull point */
+    color: #DCDCDC;
+    font-size: 40px;
+    line-height: 0px;
+    margin: 0px 0px 0px -20px;
+    padding: 0px 0px 0px 0px;
+    }
+#list { /* corona list */
+    color: #ab0613;
+    font: 17px georgia;
+    margin: 0px 0px 0px;
+    letter-spacing: -0.25px;
+    
+}
+img{
+    width: 100%;
+}
+p {
+    color: #121212;
+    font: 18.4px georgia;
+    margin: 16px 0px 16px;
+    display: block;
+    line-height: 23.25px;
+}
+h3 {
+    color: #121212;
+    font: 20px georgia;
+    font-weight:bold;
+    letter-spacing: -0.5px;
+}
+a:link { 
+    color: #ab0613;
+    text-decoration: underline;
+    text-decoration-color: lightgray;
+    }
+a:visited {
+    color: #ab0613;
+    text-decoration: underline;
+    text-decoration-color: lightgray;
+}
+a:hover { /* mouse over link */
+    color: #ab0613;
+    text-decoration: underline;
+    text-decoration-color: #ab0613;
+}
+#lastp { /* last p (different) */
+    font-size: 13px;
+    font-style: italic;
+}
+h4 {
+    color: #121212;
+    font: 18px georgia;
+    font-weight:bold;
+    letter-spacing: -0.5px;
+}
+path { /* triangle caption */
+    fill: #ab0613;
+}
+span { /* caption */
+    color: #767676;
+    font: 11.5px helvetica;
+    letter-spacing: 0.2px;
+}
+figure {
+    width: 100%;
+    margin: auto;
+}
+.italic {
+    font-style: italic;
+}
+/* section 02 */
+#petition { 
+    background-color: rgb(246, 246, 246);
+    border-top: solid rgb(255, 229, 0) 1px;
+}
+h5{
+    color: #121212;
+    font: 20px georgia;
+    font-weight:bold;
+    margin: 0px;
+}
+mark {
+    background-color: rgb(255, 229, 0);
+    font-weight: bold;
+}
+#smallimg {
+    width: 20%;
+    align-content: left
+    ;
+}
