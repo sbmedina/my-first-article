@@ -91,6 +91,8 @@ figure {
 }
 .italic {
     font-style: italic;
+    padding: 12px;
+    margin-left: 100px; 
 }
 /* section 02 */
 #petition { 
@@ -107,8 +109,7 @@ mark {
     background-color: rgb(255, 229, 0);
     font-weight: bold;
 }
-#smallimg {
-    width: 20%;
-    align-content: left
-    ;
+#small_img {
+    width:15%; 
+    float: left;
 }
