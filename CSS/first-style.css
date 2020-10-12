@@ -6,17 +6,17 @@ body {
     width: 620px;
 }
 h1 {
-    color: #ab0613;
-    font: 28px georgia;
+    color: #7d0068;
+    font: 32px georgia;
     margin: 0px 0px 0px;
-    padding: 0px 0px 22px;
+    padding: 0px 0px 0px;
     font-weight:bold;
     letter-spacing: -1px;
 }
 h2 {
     color: #121212;
-    font: 17px georgia;
-    margin: 0px 0px 0px;
+    font: 20px georgia;
+    margin: 0px 100px 10px 0px;
     font-weight: lighter;
     letter-spacing: -0.5px;
     }
@@ -28,21 +28,20 @@ li { /* bull point */
     padding: 0px 0px 0px 0px;
     }
 #list { /* corona list */
-    color: #ab0613;
+    color: #bb3b80;
     font: 17px georgia;
     margin: 0px 0px 0px;
     letter-spacing: -0.25px;
-    
-}
+    }
 img{
     width: 100%;
 }
 p {
     color: #121212;
-    font: 18.4px georgia;
+    font: 19px georgia;
     margin: 16px 0px 16px;
     display: block;
-    line-height: 23.25px;
+    line-height: 25px;
 }
 h3 {
     color: #121212;
@@ -51,19 +50,19 @@ h3 {
     letter-spacing: -0.5px;
 }
 a:link { 
-    color: #ab0613;
+    color: #bb3b80;
     text-decoration: underline;
     text-decoration-color: lightgray;
     }
 a:visited {
-    color: #ab0613;
+    color: #bb3b80;
     text-decoration: underline;
     text-decoration-color: lightgray;
 }
 a:hover { /* mouse over link */
-    color: #ab0613;
+    color: #bb3b80;
     text-decoration: underline;
-    text-decoration-color: #ab0613;
+    text-decoration-color: #bb3b80;
 }
 #lastp { /* last p (different) */
     font-size: 13px;
@@ -76,12 +75,15 @@ h4 {
     letter-spacing: -0.5px;
 }
 path { /* triangle caption */
-    fill: #ab0613;
+    fill: #bb3b80;
 }
 span { /* caption */
     color: #767676;
     font: 11.5px helvetica;
     letter-spacing: 0.2px;
+}
+#no-u-line {
+    text-decoration: none;
 }
 figure {
     width: 100%;
