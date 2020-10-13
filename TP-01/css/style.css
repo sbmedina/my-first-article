@@ -11,30 +11,14 @@ h1 {
     margin: 0px 0px 0px;
     padding: 0px 0px 0px;
     font-weight:bold;
-    letter-spacing: -1px;
+    letter-spacing: 0px;
 }
 h2 {
     color: #121212;
     font: 20px georgia;
     margin: 0px 100px 10px 0px;
     font-weight: lighter;
-    letter-spacing: -0.5px;
-    }
-li { /* bull point */
-    color: #DCDCDC;
-    font-size: 40px;
-    line-height: 0px;
-    margin: 0px 0px 0px -20px;
-    padding: 0px 0px 0px 0px;
-    }
-#list { /* corona list */
-    color: #bb3b80;
-    font: 17px georgia;
-    margin: 0px 0px 0px;
-    letter-spacing: -0.25px;
-    }
-img{
-    width: 100%;
+    letter-spacing: 0px;
 }
 p {
     color: #121212;
@@ -47,7 +31,7 @@ h3 {
     color: #121212;
     font: 20px georgia;
     font-weight:bold;
-    letter-spacing: -0.5px;
+    letter-spacing: 0px;
 }
 a:link { 
     color: #bb3b80;
@@ -64,15 +48,11 @@ a:hover { /* mouse over link */
     text-decoration: underline;
     text-decoration-color: #bb3b80;
 }
-#lastp { /* last p (different) */
-    font-size: 13px;
-    font-style: italic;
-}
 h4 {
     color: #121212;
     font: 18px georgia;
     font-weight:bold;
-    letter-spacing: -0.5px;
+    letter-spacing: 0px;
 }
 path { /* triangle caption */
     fill: #bb3b80;
@@ -88,6 +68,10 @@ span { /* caption */
 figure {
     width: 100%;
     margin: auto;
+}
+#small_img {
+    width:15%; 
+    float: left;
 }
 .italic {
     font-style: italic;
@@ -108,8 +92,4 @@ h5{
 mark {
     background-color: rgb(255, 229, 0);
     font-weight: bold;
-}
-#small_img {
-    width:15%; 
-    float: left;
 }

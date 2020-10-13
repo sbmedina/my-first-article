@@ -3,46 +3,31 @@ body {
     border: 1px solid lightgray; 
     margin: 10px auto; 
     padding: 20px;
-    width: 620px;
-}
+    }
 h1 {
     color: #ab0613;
     font: 28px georgia;
-    margin: 0px 0px 0px;
+    margin: 0px;
     padding: 0px 0px 22px;
     font-weight:bold;
-    letter-spacing: -1px;
+    letter-spacing: 0px;
 }
 h2 {
     color: #121212;
     font: 17px georgia;
-    margin: 0px 0px 0px;
+    margin: 0px;
     font-weight: lighter;
-    letter-spacing: -0.5px;
+    letter-spacing: 0px;
     }
 li { /* bull point */
     color: #DCDCDC;
     font-size: 20px;
     text-decoration: 12x12;
-    margin: 0px 0px 0px -20px;
-    padding: 0px 0px 0px 0px;
-    }
-
-img{
-    width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
-p {
-    color: #121212;
-    font: 18.4px georgia;
-    margin: 16px 0px 16px;
-    display: block;
-    line-height: 23.5px;
-}
-h3 {
-    color: #121212;
-    font: 20px georgia;
-    font-weight:bold;
-    letter-spacing: -0.5px;
+.grey_hover:hover {
+    text-decoration-color: #DCDCDC
 }
 a:link { 
     color: #ab0613;
@@ -58,10 +43,27 @@ a:hover { /* mouse over link */
     color: #ab0613;
     text-decoration: underline;
     text-decoration-color: #ab0613;
-
-    }
-.grey_hover:hover {
-    text-decoration-color: #DCDCDC
+}
+img{
+    width: 100%;
+}
+.quote {
+    color: #767676;
+    font-style: italic;
+    margin-left: 30px;
+}
+p {
+    color: #121212;
+    font: 18.4px georgia;
+    margin: 16px 0px 16px;
+    display: block;
+    line-height: 23.5px;
+}
+h3 {
+    color: #121212;
+    font: 20px georgia;
+    font-weight:bold;
+    letter-spacing: 0px;
 }
 #lastp { /* last p (different) */
     font-size: 13px;
@@ -71,7 +73,7 @@ h4 {
     color: #121212;
     font: 18px georgia;
     font-weight:bold;
-    letter-spacing: -0.5px;
+    letter-spacing: 0px;
 }
 path { /* triangle caption */
     fill: #ab0613;
@@ -90,6 +92,10 @@ figure {
     padding: 12px;
     margin-left: 100px; 
 }
+#small_img {
+    width:15%; 
+    float: left;
+}
 /* section 02 */
 #petition { 
     background-color: rgb(246, 246, 246);
@@ -107,13 +113,4 @@ h5{
 mark {
     background-color: rgb(255, 229, 0);
     font-weight: bold;
-}
-#small_img {
-    width:15%; 
-    float: left;
-}
-.quote {
-    color: #767676;
-    font-style: italic;
-    margin-left: 30px;
 }
